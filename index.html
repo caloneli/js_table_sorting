@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Domace Zivotinje</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="nav">
+                <div class="item" onclick="onPageChange('index.html')">Pocetna</div>
+                <div class="item" onclick="onPageChange('autor.html')">O Autoru</div>
+                <div class="item" onclick="onPageChange('uputstvo.html')">Uputstvo</div>
+            </div>
+            <div class="content">
+                <table id="table">
+                    <tr>
+                        <th onclick="sortTable('0')">Rbr</th>
+                        <th onclick="sortTable('1')">Ime</th>
+                        <th onclick="sortTable('2')">Prezime</th>
+                    </tr>
+                    <tr>
+                        <td>1.</td>
+                        <td>Pera</td>
+                        <td>Mikic</td>
+                    </tr>
+                    <tr>
+                        <td>2.</td>
+                        <td>Mika</td>
+                        <td>Zikic</td>
+                    </tr>
+                    <tr>
+                        <td>3.</td>
+                        <td>Zika</td>
+                        <td>Peric</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
